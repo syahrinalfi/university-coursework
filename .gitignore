@@ -1,0 +1,7 @@
+*.exe
+*.o
+__pycache__/
+# Film files the apps play; not distributed
+Movies/
+*.mp4
+*.mkv

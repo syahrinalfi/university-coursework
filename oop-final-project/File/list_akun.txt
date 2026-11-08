@@ -1,0 +1,28 @@
+{
+          "admin": {
+                    "Password": "admin",
+                    "Nama": "admin",
+                    "Movie": {},
+                    "Balance": 0
+          },
+          "alfi": {
+                    "Password": "alfi",
+                    "Nama": "Alfi",
+                    "Movie": {},
+                    "Balance": 0
+          },
+          "user1": {
+                    "Password": "user1",
+                    "Nama": "User1",
+                    "Movie": {},
+                    "Balance": 880000
+          },
+          "user2": {
+                    "Password": "user2",
+                    "Nama": "User2",
+                    "Movie": {
+                              "1": "Bumblebee"
+                    },
+                    "Balance": 195000
+          }
+}

@@ -1,0 +1,2 @@
+# The C app reads these as fixed-width binary records; line-ending conversion would corrupt them
+c-final-project/File/* binary

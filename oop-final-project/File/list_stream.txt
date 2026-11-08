@@ -1,0 +1,32 @@
+{
+          "1": {
+                    "Nama": "Prey for The Devil",
+                    "Kode": "PTD",
+                    "Genre": "Horror",
+                    "Status": "Gratis"
+          },
+          "2": {
+                    "Nama": "Bumblebee",
+                    "Kode": "BBB",
+                    "Genre": "Action",
+                    "Status": "Berbayar"
+          },
+          "3": {
+                    "Nama": "Godzilla vs. Kong",
+                    "Kode": "GVK",
+                    "Genre": "Action",
+                    "Status": "Berbayar"
+          },
+          "4": {
+                    "Nama": "Aquaman",
+                    "Kode": "AM",
+                    "Genre": "Adventure",
+                    "Status": "Gratis"
+          },
+          "5": {
+                    "Nama": "Now You See Me 2",
+                    "Kode": "NYSM2",
+                    "Genre": "Action",
+                    "Status": "Berbayar"
+          }
+}
