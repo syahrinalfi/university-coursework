@@ -5,3 +5,7 @@ __pycache__/
 Movies/
 *.mp4
 *.mkv
+# Deep learning web apps: runtime files and large models
+static/uploads/
+static/predictions/
+*.h5

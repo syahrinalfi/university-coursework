@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload and Predict</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="image-preview">
+            <img src="{{ url_for('static', filename='images/placeholder.png') }}" alt="Placeholder Image">
+        </div>
+        <form action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
+            <div class="buttons">
+                <input type="file" name="file" accept="image/*" id="upload" hidden required>
+                <label for="upload" class="btn">UPLOAD GAMBAR</label>
+                <button type="submit" class="btn">PREDICT</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="result-container">
+        <!-- Gambar yang diunggah -->
+        <div class="image-container">
+            <img src="{{ uploaded_image }}" alt="Uploaded Image" class="uploaded-image">
+            <p class="prediction-text">PREDICTED: {{ predicted_label }}</p>
+            <p>Confidence: <strong>{{ confidence }}</strong></p>
+        </div>
+
+        <!-- Tombol kembali -->
+        <div class="back-button">
+            <a href="{{ url_for('upload_file') }}" class="btn">KEMBALI</a>
+        </div>
+    </div>
+</body>
+</html>

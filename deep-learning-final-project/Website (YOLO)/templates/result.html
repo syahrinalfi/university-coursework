@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="result-container">
+        <div class="image-container">
+            <img src="{{ predicted_image }}" alt="Predicted Image" class="predicted-image">
+            <p class="prediction-text">PREDICTION</p>
+        </div>
+        <div class="back-button">
+            <a href="{{ url_for('upload_file') }}" class="btn">KEMBALI</a>
+        </div>
+    </div>
+</body>
+</html>
