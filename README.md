@@ -1,6 +1,6 @@
 # University Coursework
 
-Selected projects from my Computer Engineering courses at Telkom University (2022–2024). The code is kept close to how it was submitted. The only changes are hardcoded Windows paths replaced with relative ones, and test accounts renamed. Identifiers, comments and on-screen text are in Indonesian.
+Projects from my Computer Engineering courses at Telkom University (2022–2024). The code is kept close to how it was submitted. The only changes are hardcoded Windows paths replaced with relative ones, and test accounts renamed. Identifiers, comments and on-screen text are in Indonesian.
 
 For my weekly Machine Learning assignments, see [MachineLearningTasks](https://github.com/syahrinalfi/MachineLearningTasks).
 
